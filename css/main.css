@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0em;
+}
+
+
+
+h1{
+  font-family: 'Contrail One', cursive;
+  color: #fff;
+  text-align: center;
+  background-color: #1a2230;
+  margin: 0em;
+}
+
+div{
+  background-color: #2c3950;
+  margin: 0em;
+}
+
+.body{
+  width: 320px;
+}
+
+.brain{
+  width: 46px;
+}
+
+.left{
+  width: 125px;
+}
+
+.right{
+  width: 125px;
+}
