@@ -9,9 +9,13 @@ html {
 
 body{
   margin: 0em;
+
 }
 
+header{
+  background-color: #2c3950;
 
+}
 
 h1{
   font-family: 'Contrail One', cursive;
@@ -19,25 +23,38 @@ h1{
   text-align: center;
   background-color: #1a2230;
   margin: 0em;
+  padding: 1em 0em 1em 0em;
+  width: 100%;
 }
 
 div{
-  background-color: #2c3950;
+  padding-top: 10em;
   margin: 0em;
 }
 
-.body{
+.body {
   width: 320px;
+  position: absolute;
+  top: 9px;
+
 }
 
-.brain{
+.brain {
   width: 46px;
+  position: absolute;
+  top: 0px;
+  right: 138px;
 }
 
-.left{
+.left {
   width: 125px;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+
 }
 
 .right{
   width: 125px;
+  position: absolute;
 }
