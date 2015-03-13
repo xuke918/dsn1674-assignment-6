@@ -21,18 +21,22 @@ h1{
   color: #fff;
   text-align: center;
   background-color: #1a2230;
-  margin: 0em;
+  margin: 0 auto;
   padding: 0.6em 0em 0.6em 0em;
   width: 100%;
-  font-size: 2.5em;
+  font-size: 2.25em;
 }
 
 div:hover .right{
-  right: 1.4em;
+  right: 0em;
 }
 
 div:hover .left{
-  left: 1em;
+  left: 0em;
+}
+
+div:hover .brain{
+  top: 45px;
 }
 
 div{
@@ -45,7 +49,7 @@ div{
 .body {
   width: 320px;
   position: absolute;
-  top: 60px;
+  top: 55px;
 
 }
 
@@ -53,15 +57,15 @@ div{
   width: 46px;
   position: absolute;
   top: 60px;
-  right: 170px;
+  right: 137px;
 
 }
 
 .left {
   width: 125px;
   position: absolute;
-  left: 33px;
-  top: 22px;
+  left: 36px;
+  top: 18px;
   transition: all 200ms liner;
 
 }
@@ -69,7 +73,7 @@ div{
 .right{
   width: 125px;
   position: absolute;
-  right: 74px;
-  top: 1.4em;
+  right: 36px;
+  top: 18px;
   transition: all 200ms liner;
 }
